@@ -12,11 +12,11 @@
 
 ### 重命名文件
 
-请按照上传时间对PPT和论文PDF进行重命名，具体格式为`YYYY.MM.DD`，例如`2021.07.27`。上传完毕后，如下图所示。![example](upload/example.png)
+请按照上传时间对PPT和论文PDF进行重命名并添加到对应的文件目录下，具体格式为`YYYY.MM.DD`，例如`2021.07.27`。添加完毕后，如下图所示。![example](upload/example.png)
 
 ### 添加记录
 
-请使用Markdown编辑软件添加本次提交的描述到[README.md](../README.md)文件中。具体内容为：
+请使用Markdown编辑软件添加本次提交的描述到[README.md](README.md)文件中。具体内容为：
 
 1. 时间。格式为`YYYY.MM.DD`
 2. 题目。论文英文名全称
