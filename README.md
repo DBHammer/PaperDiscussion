@@ -13,4 +13,4 @@
 | 2021.08.11 |   CockroachDB: The Resilient Geo-Distributed SQL Database    |        SIGMOD        | 2020 | [PDF](PDF/2021.08.11.2.pdf)/[PPT](PPT/2021.08.11.2.pptx) | 连薛超 |
 | 2021.08.12 |       Spanner: Google's globally-distributed database        |         OSDI         | 2012 |  [PDF](PDF/2021.08.12.pdf) / [PPT](PPT/2021.08.12.pptx)  | 瞿璐祎 |
 | 2021.08.13 |               TiDB: A Raft-based HTAP Database               |         VLDB         | 2020 |  [PDF](PDF/2021.08.13.pdf) / [PPT](PPT/2021.08.13.pptx)  | 游舒泓 |
-
+| 2021.08.25 | Query Performance Prediction for Concurrent Queries using Graph Embedding |         VLDB         | 2020 |  [PDF](PDF/2021.08.25.pdf) / [PPT](PPT/2021.08.25.pptx)  | 陈婷 |
