@@ -17,4 +17,5 @@
 | 2021.09.09 | Real-Time Quantification and Classification of Consistency Anomalies in Multi-tier Architectures |         ICDE         | 2011 |  [PDF](PDF/2021.09.09.1.pdf) / [PPT](PPT/2021.09.09.1.pptx)  | 刘沛源 |
 | 2021.09.15 | IsoDiff: Debugging Anomalies Caused by Weak Isolation | VLDB | 2020 | [PDF](PDF/2021.09.15.pdf) / [PPT](PPT/2021.09.15.pptx) | 卢皙钰 |
 | 2021.10.04 | Toto - Benchmarking the Efficiency of a Cloud Service | SIGMOD | 2021 | [PDF](PDF/2021.10.04.pdf) / [PPT](PPT/2021.10.04.pptx) | 俞融 |
+| 2021.10.14 | "What makes my queries slow?": Subgroup Discovery for SQL Workload Analysis | ASE | 2021 | [PDF](PDF/2021.10.14.pdf)/[PPT](PPT/2021.10.14.pptx) | 翁思扬 |
 
