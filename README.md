@@ -19,4 +19,5 @@
 | 2021.10.04 | Toto - Benchmarking the Efficiency of a Cloud Service | SIGMOD | 2021 | [PDF](PDF/2021.10.04.pdf) / [PPT](PPT/2021.10.04.pptx) | 俞融 |
 | 2021.10.14 | "What makes my queries slow?": Subgroup Discovery for SQL Workload Analysis | ASE | 2021 | [PDF](PDF/2021.10.14.pdf)/[PPT](PPT/2021.10.14.pptx) | 翁思扬 |
 | 2021.10.21 | Retrofitting High Availability Mechanism to Tame Hybrid Transaction/Analytical Processing | OSDI | 2021 | [PDF](PDF/2021.10.21.pdf)/[PPT](PPT/2021.10.21.pptx) | 胡梓锐 |
+| 2021.11.07 | Virtual Consensus in Delos | OSDI | 2020 | [PDF](2021.11.07.pdf)/[PPT](PPT/2021.11.07.ppt) | 连薛超 |
 
