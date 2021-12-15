@@ -20,4 +20,5 @@
 | 2021.10.14 | "What makes my queries slow?": Subgroup Discovery for SQL Workload Analysis | ASE | 2021 | [PDF](PDF/2021.10.14.pdf)/[PPT](PPT/2021.10.14.pptx) | 翁思扬 |
 | 2021.10.21 | Retrofitting High Availability Mechanism to Tame Hybrid Transaction/Analytical Processing | OSDI | 2021 | [PDF](PDF/2021.10.21.pdf)/[PPT](PPT/2021.10.21.pptx) | 胡梓锐 |
 | 2021.11.07 | Virtual Consensus in Delos | OSDI | 2020 | [PDF](PDF/2021.11.07.pdf)/[PPT](PPT/2021.11.07.pptx) | 连薛超 |
+| 2021.12.11 | Bao: Making Learned Query Optimization Practical | SIGMOD | 2021 | [PDF](PDF/2021.12.11.pdf)/[PPT](PPT/2021.12.11.pptx) | 陈婷 |
 
