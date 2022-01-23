@@ -21,4 +21,4 @@
 | 2021.10.21 | Retrofitting High Availability Mechanism to Tame Hybrid Transaction/Analytical Processing | OSDI | 2021 | [PDF](PDF/2021.10.21.pdf)/[PPT](PPT/2021.10.21.pptx) | 胡梓锐 |
 | 2021.11.07 | Virtual Consensus in Delos | OSDI | 2020 | [PDF](PDF/2021.11.07.pdf)/[PPT](PPT/2021.11.07.pptx) | 连薛超 |
 | 2021.12.11 | Bao: Making Learned Query Optimization Practical | SIGMOD | 2021 | [PDF](PDF/2021.12.11.pdf)/[PPT](PPT/2021.12.11.pptx) | 陈婷 |
-
+| 2022.01.20 | Amazon Aurora: On Avoiding Distributed Consensus for I/Os, Commits, and Membership Changes crash recovery in aurora | Sigmod | 2018 | [PDF](PDF/2022.01.20.pdf) / [PPT](PPT/2022.01.20.pptx) | 俞融 |
