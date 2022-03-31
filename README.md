@@ -25,4 +25,5 @@
 | 2022.02.17 | Quantifying TPC-H Choke Points and Their Optimizations | VLDB | 2020 | [PDF](PDF/2022.02.17.pdf) / [PPT](PPT/2022.02.17.pptx) | 李好 |
 | 2022.02.24 | FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems | EuroSys | 2019 | [PDF](PDF/2022.02.24.pdf) / [PPT](PPT/2022.02.24.pptx) | 翁思扬 |
 | 2022.03.01 | HTAPBench: Hybrid Transactional and Analytical Processing Benchmark | ICPE | 2017 | [PDF](PDF/2022.03.01.pdf) / [PPT](PPT/2022.03.01.pdf) | 张惠东 |
+| 2022.03.31 | 2phase-locking introduction |  | | [PPT](PPT/2022.03.01.pdf) | 连薛超 |
 
