@@ -30,4 +30,4 @@
 | 2022.04.06 | ScaleCheck A Single-Machine Approach for Discovering Scalability Bugs in Large Distributed Systems | FAST | 2019 | [PDF](PDF/2022.04.06.pdf) / [PPT](PPT/2022.04.06.pptx) | 李可强 |
 | 2022.04.20 | Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark |         VLDB Journal         | 2018 |  [PDF](PDF/2022.04.20.pdf) / [PPT](PPT/2022.04.20.pptx)  | 陈婷 |
 | 2022.05.11 | LearnedSQLGen: Constraint-aware SQL Generation using Reinforcement Learning | SIGMOD | 2022 | [PDF](PDF/2022.05.11.pdf) / [PPT](PPT/2022.05.11.pptx) | 项兆坤 |
-
+| 2022.05.18 | Removing Double-Logging with Passive Data Persistence in LSM-tree based Relational Databases | FAST | 2022 | [PDF](PDF/2022.05.18.pdf) / [PPT](PPT/2022.05.18.pptx) | 刘沛源 |
