@@ -1,4 +1,4 @@
-# PaperDiscussion
+# `PaperDiscussion`
 
 本仓库维护DBHammer实验室的讨论班记录，请严格按照[上传说明](upload.md)上传讨论班的相关PPT。**请勿外传！！！**
 
@@ -31,3 +31,4 @@
 | 2022.04.20 | Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark |         VLDB Journal         | 2018 |  [PDF](PDF/2022.04.20.pdf) / [PPT](PPT/2022.04.20.pptx)  | 陈婷 |
 | 2022.05.11 | LearnedSQLGen: Constraint-aware SQL Generation using Reinforcement Learning | SIGMOD | 2022 | [PDF](PDF/2022.05.11.pdf) / [PPT](PPT/2022.05.11.pptx) | 项兆坤 |
 | 2022.05.18 | Removing Double-Logging with Passive Data Persistence in LSM-tree based Relational Databases | FAST | 2022 | [PDF](PDF/2022.05.18.pdf) / [PPT](PPT/2022.05.18.pptx) | 刘沛源 |
+| 2022.05.31 | Taurus: Lightweight Parallel Logging for  In-Memory Database Management Systems (Extended Version) | VLDB | 2020 | [PDF](PDF/2022.05.31.pdf) / [PPT](PPT/2022.05.31.pptx) | 俞融 |
