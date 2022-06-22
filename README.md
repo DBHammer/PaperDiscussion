@@ -34,4 +34,5 @@
 | 2022.05.25 | Finding Complex Concurrency Bugs in Large Multi-Threaded Applications | EuroSys | 2011 |  [PDF](PDF/2022.05.25.pdf) / [PPT](PPT/2021.05.25.pptx)| 卢皙钰 |
 | 2022.05.31 | Taurus: Lightweight Parallel Logging for  In-Memory Database Management Systems (Extended Version) | VLDB | 2020 | [PDF](PDF/2022.05.31.pdf) / [PPT](PPT/2022.05.31.pptx) | 俞融 |
 | 2022.6.14 | Greenplum: A Hybrid Database for Transactional and Analytical Workloads | SIGMOD | 2021 | [PDF](PDF/2022.06.14.pdf)/[PPT](PPT/2022.06.14.pptx) | 翁思扬 |
+| 2022.6.22 | An Empirical Evaluation of In-Memory Multi-Version Concurrency Control | VLDB | 2017 | [PDF](PDF/2022.06.22.pdf)/[PPT](PPT/2022.06.22.pptx) | 张惠东 |
 
