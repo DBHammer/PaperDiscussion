@@ -38,4 +38,4 @@
 | 2022.07.05 | Diva: Making MVCC Systems HTAP-Friendly | SIGMOD | 2022 | [PDF](PDF/2022.07.05.pdf)/[PPT](PPT/2022.07.05.pptx) | 胡梓锐 |
 | 2022.09.23 | Ad Hoc Transactions in Web Applications: The Good, the Bad, and the Ugly | SIGMOD | 2022 | [PDF](PDF/2022.09.23.pdf)/[PPT](PPT/2022.09.23.pptx) | 刘沛源 |
 | 2022.10.28 | MB2: Decomposed Behavior Modeling for Self-Driving Database Management Systems | SIGMOD | 2022 | [PDF](PDF/2022.10.28.pdf) / [PPT](PPT/2022.10.28.pptx) | 游舒泓 |
-
+| 2022.11.04 | Remus: Efficient Live Migration for Distributed Databases with Snapshot Isolation | SIGMOD Industry | 2022 | [PDF](PDF/2022.11.04.pdf) / [PPT](PPT/2022.11.04.pptx) | 俞融 |
