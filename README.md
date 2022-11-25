@@ -40,4 +40,7 @@
 | 2022.10.14 | Detecting Logical Bugs of DBMS with Coverage-based Guidance | USENIX Security | 2022 | [PDF](PDF/2022.10.14.pdf)/[PPT](PPT/2022.10.14.pptx) | 卢皙钰 |
 | 2022.10.28 | MB2: Decomposed Behavior Modeling for Self-Driving Database Management Systems | SIGMOD | 2022 | [PDF](PDF/2022.10.28.pdf) / [PPT](PPT/2022.10.28.pptx) | 游舒泓 |
 | 2022.11.04 | Remus: Efficient Live Migration for Distributed Databases with Snapshot Isolation | SIGMOD Industry | 2022 | [PDF](PDF/2022.11.04.pdf) / [PPT](PPT/2022.11.04.pptx) | 俞融 |
+| 2022.11.18 | PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases | ICDE | 2022 | [PDF](PDF/2022.11.18_1.pdf) / [PPT](PPT/2022.11.18_1.pptx) | 简炜 |
+| 2022.11.18 | Revisiting the Design of LSM-tree Based OLTP Storage Engine with Persistent Memory | VLDB | 2021 | [PDF](PDF/2022.11.18_2.pdf) / [PPT](PPT/2022.11.18_2.pptx) | 凌向荣 |
+| 2022.11.25 | Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation | VLDB | 2021 | [PDF](PDF/2022.11.25.pdf) / [PPT](PPT/2022.11.25.pptx) | 罗瑶 |
 
