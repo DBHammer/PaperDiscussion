@@ -43,4 +43,5 @@
 | 2022.11.18 | PinSQL: Pinpoint Root Cause SQLs to Resolve Performance Issues in Cloud Databases | ICDE | 2022 | [PDF](PDF/2022.11.18_1.pdf) / [PPT](PPT/2022.11.18_1.pptx) | 简炜 |
 | 2022.11.18 | Revisiting the Design of LSM-tree Based OLTP Storage Engine with Persistent Memory | VLDB | 2021 | [PDF](PDF/2022.11.18_2.pdf) / [PPT](PPT/2022.11.18_2.pptx) | 凌向荣 |
 | 2022.11.25 | Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation | VLDB | 2021 | [PDF](PDF/2022.11.25.pdf) / [PPT](PPT/2022.11.25.pptx) | 罗瑶 |
+| 2022.11.25 | Tastes Great! Less Filling! High Performance and Accurate Training Data Collection for Self-Driving Database Management Systems | SIGMOD | 2022 | [PDF](PDF/2022.11.25_2.pdf) / [PPT](PPT/2022.11.25_2.pptx) | 游舒泓 |
 
