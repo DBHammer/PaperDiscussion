@@ -44,4 +44,5 @@
 | 2022.11.18 | Revisiting the Design of LSM-tree Based OLTP Storage Engine with Persistent Memory | VLDB | 2021 | [PDF](PDF/2022.11.18_2.pdf) / [PPT](PPT/2022.11.18_2.pptx) | 凌向荣 |
 | 2022.11.25 | Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation | VLDB | 2021 | [PDF](PDF/2022.11.25.pdf) / [PPT](PPT/2022.11.25.pptx) | 罗瑶 |
 | 2022.11.25 | Tastes Great! Less Filling! High Performance and Accurate Training Data Collection for Self-Driving Database Management Systems | SIGMOD | 2022 | [PDF](PDF/2022.11.25_2.pdf) / [PPT](PPT/2022.11.25_2.pptx) | 游舒泓 |
+| 2022.12.16 | Cornus: atomic commit for a cloud DBMS with storage disaggregation | VLDB | 2022 | [PDF](PDF/2022.12.16.pdf)/[PPT](PPT/2022.12.16.pptx) | 翁思扬 |
 
