@@ -45,4 +45,5 @@
 | 2022.11.25 | Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation | VLDB | 2021 | [PDF](PDF/2022.11.25.pdf) / [PPT](PPT/2022.11.25.pptx) | 罗瑶 |
 | 2022.11.25 | Tastes Great! Less Filling! High Performance and Accurate Training Data Collection for Self-Driving Database Management Systems | SIGMOD | 2022 | [PDF](PDF/2022.11.25_2.pdf) / [PPT](PPT/2022.11.25_2.pptx) | 游舒泓 |
 | 2022.12.16 | Cornus: atomic commit for a cloud DBMS with storage disaggregation | VLDB | 2022 | [PDF](PDF/2022.12.16.pdf)/[PPT](PPT/2022.12.16.pptx) | 翁思扬 |
+| 2023.02.08 | Carousel: Low-Latency Transaction Processing for Globally-Distributed Data | SIGMOD | 2018 | [PDF](PDF/2023.02.08.pdf)/[PPT](PPT/2023.02.08.pptx) | 张惠东 |
 
