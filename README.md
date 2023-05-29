@@ -44,7 +44,20 @@
 | 2022.11.18 | Revisiting the Design of LSM-tree Based OLTP Storage Engine with Persistent Memory | VLDB | 2021 | [PDF](PDF/2022.11.18_2.pdf) / [PPT](PPT/2022.11.18_2.pptx) | 凌向荣 |
 | 2022.11.25 | Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation | VLDB | 2021 | [PDF](PDF/2022.11.25.pdf) / [PPT](PPT/2022.11.25.pptx) | 罗瑶 |
 | 2022.11.25 | Tastes Great! Less Filling! High Performance and Accurate Training Data Collection for Self-Driving Database Management Systems | SIGMOD | 2022 | [PDF](PDF/2022.11.25_2.pdf) / [PPT](PPT/2022.11.25_2.pptx) | 游舒泓 |
+| 2022.12.09 | SAM: Database Generation from Query Workloads with Supervised Autoregressive Models |   |   |  | 李好 |
 | 2022.12.16 | Cornus: atomic commit for a cloud DBMS with storage disaggregation | VLDB | 2022 | [PDF](PDF/2022.12.16.pdf)/[PPT](PPT/2022.12.16.pptx) | 翁思扬 |
 | 2023.02.08 | Carousel: Low-Latency Transaction Processing for Globally-Distributed Data | SIGMOD | 2018 | [PDF](PDF/2023.02.08.pdf)/[PPT](PPT/2023.02.08.pptx) | 张惠东 |
+| 2023.02.15 | Differentially testing database transaction for fun and profit |   |   |   | 李可强 |
+| 2023.02.22 | Online, Asynchronous Schema Change in F1 |   |   |   | 徐金凯 |
+| 2023.03.01 | ADOC:AutomaticallyHarmonizing Dataflow Between Components in Log-Structured Key-Value Stores for Improved Performance |   |   |   | 王清帅 |
+| 2023.03.08 | Neurocard: One cardinality estimator for all tables |   |   |   | 陈立翔 |
+| 2023.03.15 | Are We Ready For Learned Cardinality Estimation |   |   |   | 胡梓锐 |
+| 2023.03.22 | Learned Index Benefits: Machine Learning Based Index Performance Estimation |   |   |   | 潘志诚 |
 | 2023.04.12 | TreeLine: an update-in-place key-value store for modern storage | VLDB | 2023 | [PDF](./PDF/2023.04.12.pdf)/[PPT](./PPT/2023.04.12.pptx) | 翁思扬 |
+| 2023.04.19 | When Database Meets New Storage Devices: Understanding and Exposing Performance Mismatches via Configurations |   |   |   | 刘沛源 |
+| 2023.04.26 | Endure：A Robust Tuning Paradigm for LSM Tree Under Workload Uncertainty |   |   |   | 陈睿皓 |
+| 2023.05.10 | Griffin: Grammar-Free DBMS Fuzzing |   |   |   | 卢皙钰 |
+| 2023.05.17 |   |   |   |   | 熊鑫 |
+| 2023.05.24 | Cloud Analytics Benchmark  | VLDB  | 2023  |  [PDF](./PDF/2023.05.24.pdf)/[PPT](./PPT/2023.05.24.pptx)  | 俞融 |
+| 2023.05.31 |   |   |   |   | 简炜 |
 
