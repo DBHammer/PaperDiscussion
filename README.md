@@ -60,4 +60,5 @@
 | 2023.05.17 |   |   |   |   | 熊鑫 |
 | 2023.05.24 | Cloud Analytics Benchmark  | VLDB  | 2023  |  [PDF](./PDF/2023.05.24.pdf)/[PPT](./PPT/2023.05.24.pptx)  | 俞融 |
 | 2023.05.31 |   |   |   |   | 简炜 |
+| 2023.07.13 | PERSEUS: A Fail-Slow Detection Framework for Cloud Storage Systems | FAST | 2023 | [PDF](./PDF/2023.07.13.pdf)/[PPT](./PPT/2023.07.13.pptx) | 翁思扬 |
 
