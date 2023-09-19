@@ -60,5 +60,7 @@
 | 2023.05.17 |   |   |   |   | 熊鑫 |
 | 2023.05.24 | Cloud Analytics Benchmark  | VLDB  | 2023  |  [PDF](./PDF/2023.05.24.pdf)/[PPT](./PPT/2023.05.24.pptx)  | 俞融 |
 | 2023.05.31 |   |   |   |   | 简炜 |
+| 2023.06.14 | 传统直方图基数预估总结 | | | [PPT](./PPT/2023.06.14.pptx) | 罗瑶 |
 | 2023.07.13 | PERSEUS: A Fail-Slow Detection Framework for Cloud Storage Systems | FAST | 2023 | [PDF](./PDF/2023.07.13.pdf)/[PPT](./PPT/2023.07.13.pptx) | 翁思扬 |
 | 2023.08.17 | Enabling the Next Generation of Multi-Region Applications with CockroachDB | SIGMOD | 2022 | [PDF](./PDF/2023.08.17.pdf)/[PPT](./PPT/2023.08.17.pptx) | 张惠东 |
+| 2023.09.13 | PreQR: Pre-training Representation for SQL Understanding | SIGMOD | 2022 |  | 陈立翔 |
