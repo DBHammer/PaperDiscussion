@@ -8,4 +8,5 @@
 | 2023.09.18 | Lero: A Learning-to-Rank Query Optimizer | VLDB | 2023 | [PDF](./PDF/2023.09.18_1.pdf)/[PPT](./PPT/2023.09.18_1.pptx) | 胡梓锐 |
 | 2023.09.19 | Model Checking Guided Testing for Distributed Systems | EuroSys | 2023 | [PDF](./PDF/2023.09.18_2.pdf)/[PPT](./PPT/2023.09.18_2.pptx) | 郭华 |
 | 2023.10.09 | One-Sided RDMA-Conscious Extendible Hashing for Disaggregated Memory | ATC | 2021 | [PDF](./PDF/2023.10.09.pdf)/[PPT](./PPT/2023.10.09.pptx) | 刘沛源 |
+| 2023.10.16 | Sequence-Oriented DBMS Fuzzing | ICDE | 2023 | [PDF](./PDF/2023.10.16.pdf)/[PPT](./PPT/2023.10.16.pptx) | 卢皙钰 |
 | 2023.10.23 | Polyjuice: High-Performance Transactions via Learned Concurrency Control | OSDI | 2021 | [PDF](./PDF/2023.10.23.pdf)/[PPT](./PPT/2023.10.23.pptx) | 翁思扬 |
