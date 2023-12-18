@@ -11,5 +11,6 @@
 | 2023.10.16 | Sequence-Oriented DBMS Fuzzing | ICDE | 2023 | [PDF](./PDF/2023.10.16.pdf)/[PPT](./PPT/2023.10.16.pptx) | 卢皙钰 |
 | 2023.10.23 | Polyjuice: High-Performance Transactions via Learned Concurrency Control | OSDI | 2021 | [PDF](./PDF/2023.10.23.pdf)/[PPT](./PPT/2023.10.23.pptx) | 翁思扬 |
 | 2023.11.06 | QueryBooster: Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting | VLDB | 2023 | [PDF](./PDF/2023.11.06.pdf)/[PPT](./PPT/2023.11.06.pptx) | 罗瑶 |
+| 2023.11.13 | An Analysis of Network-Partitioning Failures in Cloud Systems | OSDI | 2018 | [PDF](./PDF/2023.11.13.pdf)/[PPT](./PPT/2023.11.13.pptx) | 凌向荣 |
 | 2023.11.20 | Cardinality Estimation in DBMS: A Comprehensive Benchmark Evaluation | VLDB | 2022 | [PDF](./PDF/2023.11.20.pdf)/[PPT](./PPT/2023.11.20.pptx) | 陆辰昊 |
 | 2023.12.11 | One-shot Garbage Collection for In-memory OLTP through Temporality-aware Version Storage | SIGMOD | 2023 | [PDF](./PDF/2023.12.11.pdf)/[PPT](./PPT/2023.12.11.pptx) | 何海林 |
