@@ -14,3 +14,4 @@
 | 2023.11.13 | An Analysis of Network-Partitioning Failures in Cloud Systems | OSDI | 2018 | [PDF](./PDF/2023.11.13.pdf)/[PPT](./PPT/2023.11.13.pptx) | 凌向荣 |
 | 2023.11.20 | Cardinality Estimation in DBMS: A Comprehensive Benchmark Evaluation | VLDB | 2022 | [PDF](./PDF/2023.11.20.pdf)/[PPT](./PPT/2023.11.20.pptx) | 陆辰昊 |
 | 2023.12.11 | One-shot Garbage Collection for In-memory OLTP through Temporality-aware Version Storage | SIGMOD | 2023 | [PDF](./PDF/2023.12.11.pdf)/[PPT](./PPT/2023.12.11.pptx) | 何海林 |
+| 2024.02.19 | Understanding Transaction Bugs in Database Systems | ICSE | 2024 | [PDF](./PDF/2024.02.19.pdf)/[PPT](./PPT/2024.02.19.pptx) | 翁思扬 |
