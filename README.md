@@ -1,6 +1,19 @@
-# `PaperDiscussion`
+# `PaperDiscussion` [![666](https://awesome.re/badge.svg)](https://awesome.re)
 
-本仓库维护DBHammer实验室的讨论班记录，请严格按照[上传说明](upload.md)上传讨论班的相关PPT。**请勿外传！！！**
+[![DBHammer](https://img.shields.io/static/v1?label=&message=DBHammer+Paper+Discussion&color=black&logo=awesomelists)](https://github.com/DBHammer/PaperDiscussion)
+![](https://img.shields.io/github/last-commit/DBHammer/PaperDiscussion?color=green)
+[![GitHub Repo stars](https://img.shields.io/github/stars/DBHammer/PaperDiscussion)](https://github.com/DBHammer/PaperDiscussion)
+
+> 本仓库维护来自华东师范大学(ECNU)数据科学与工程学院(DaSE)DBHammer实验室的讨论班记录，请实验室内部同学严格按照[上传说明](upload.md)上传讨论班的相关PDF和PPT。
+
+> [!NOTE]
+>
+> 以下 PPT 仅限于个人学术的讨论范畴之中。
+
+------
+
+
+
 
 |    时间    |                             题目                             |         会议         | 年份 |                           链接                           | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :------------------------------------------------------: | ------ |
@@ -18,3 +31,18 @@
 | 2024.02.19 | Understanding Transaction Bugs in Database Systems | ICSE | 2024 | [PDF](./PDF/2024.02.19.pdf)/[PPT](./PPT/2024.02.19.pptx) | 翁思扬 |
 | 2024.05.16 | What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines | VLDB | 2023 | [PDF](./PDF/2024.05.16.pdf)/[PPT](./PPT/2024.05.16.pptx) | 张惠东 |
 | 2024.06.13 | Detecting Metadata-Related Logic Bugs in Database Systems via Raw Database Construction | VLDB | 2024 | [PDF](./PDF/2024.06.13.pdf)/[PPT](./PPT/2024.06.13.pptx) | 胡梓锐 |
+
+------
+
+## 致谢
+
+> Thanks to all authors of the papers we cite :D
+
+
+<a href="https://star-history.com/#DBHammer/PaperDiscussion&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=DBHammer/PaperDiscussion&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=DBHammer/PaperDiscussion&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=DBHammer/PaperDiscussion&type=Date" />
+  </picture>
+</a>
