@@ -17,3 +17,4 @@
 | 2024.01.24 | Are We Ready For Learned Cardinality Estimation? | VLDB | 2021 | [PDF](./PDF/2024.01.24.pdf)/[PPT](./PPT/2024.01.24.pptx) | 董昊朴 |
 | 2024.02.19 | Understanding Transaction Bugs in Database Systems | ICSE | 2024 | [PDF](./PDF/2024.02.19.pdf)/[PPT](./PPT/2024.02.19.pptx) | 翁思扬 |
 | 2024.05.16 | What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines | VLDB | 2023 | [PDF](./PDF/2024.05.16.pdf)/[PPT](./PPT/2024.05.16.pptx) | 张惠东 |
+| 2024.06.13 | Detecting Metadata-Related Logic Bugs in Database Systems via Raw Database Construction | VLDB | 2024 | [PDF](./PDF/2024.06.13.pdf)/[PPT](./PPT/2024.06.13.pptx) | 胡梓锐 |
