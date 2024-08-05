@@ -35,6 +35,7 @@
 | 2024.05.16 | What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines | VLDB | 2023 | [PDF](./PDF/2024.05.16.pdf)/[PPT](./PPT/2024.05.16.pptx) | 张惠东 |
 | 2024.06.13 | Detecting Metadata-Related Logic Bugs in Database Systems via Raw Database Construction | VLDB | 2024 | [PDF](./PDF/2024.06.13.pdf)/[PPT](./PPT/2024.06.13.pptx) | 胡梓锐 |
 | 2024.07.26 | PM-Blade: A Persistent Memory Augmented LSM-tree Storage for Database | ICDE | 2023 | [PDF](./PDF/2024.07.26.pdf)/[PPT](./PPT/2024.07.26.pptx) | 杨洪宇 |
+| 2024.08.02 | Columnstore and B+ tree – Are Hybrid Physical Designs Important? | SIGMOD | 2018 | [PDF](./PDF/2024.08.02.pdf)/[PPT](./PPT/2024.08.02.pptx) | 董昊朴 |
 
 ------
 
