@@ -24,13 +24,17 @@
 | 2023.10.16 | Sequence-Oriented DBMS Fuzzing | ICDE | 2023 | [PDF](./PDF/2023.10.16.pdf)/[PPT](./PPT/2023.10.16.pptx) | 卢皙钰 |
 | 2023.10.23 | Polyjuice: High-Performance Transactions via Learned Concurrency Control | OSDI | 2021 | [PDF](./PDF/2023.10.23.pdf)/[PPT](./PPT/2023.10.23.pptx) | 翁思扬 |
 | 2023.11.06 | QueryBooster: Improving SQL Performance Using Middleware Services for Human-Centered Query Rewriting | VLDB | 2023 | [PDF](./PDF/2023.11.06.pdf)/[PPT](./PPT/2023.11.06.pptx) | 罗瑶 |
+| 2023.11.10 | Coo: Consistency Check for Transactional Databases | arXiv | 2022 | [PDF](./PDF/2023.11.10.pdf)/[PPT](./PPT/2023.11.10.pptx) | 杨洪宇 |
 | 2023.11.13 | An Analysis of Network-Partitioning Failures in Cloud Systems | OSDI | 2018 | [PDF](./PDF/2023.11.13.pdf)/[PPT](./PPT/2023.11.13.pptx) | 凌向荣 |
 | 2023.11.20 | Cardinality Estimation in DBMS: A Comprehensive Benchmark Evaluation | VLDB | 2022 | [PDF](./PDF/2023.11.20.pdf)/[PPT](./PPT/2023.11.20.pptx) | 陆辰昊 |
 | 2023.12.11 | One-shot Garbage Collection for In-memory OLTP through Temporality-aware Version Storage | SIGMOD | 2023 | [PDF](./PDF/2023.12.11.pdf)/[PPT](./PPT/2023.12.11.pptx) | 何海林 |
 | 2024.01.24 | Are We Ready For Learned Cardinality Estimation? | VLDB | 2021 | [PDF](./PDF/2024.01.24.pdf)/[PPT](./PPT/2024.01.24.pptx) | 董昊朴 |
 | 2024.02.19 | Understanding Transaction Bugs in Database Systems | ICSE | 2024 | [PDF](./PDF/2024.02.19.pdf)/[PPT](./PPT/2024.02.19.pptx) | 翁思扬 |
+| 2024.02.23 | Fine-Grained Re-Execution for Efficient Batched Commit of Distributed Transactions | VLDB | 2023 | [PDF](./PDF/2024.02.23.pdf)/[PPT](./PPT/2024.02.23.pptx) | 杨洪宇 |
+| 2024.04.19 | CoroBase: Coroutine-Oriented Main-Memory Database Engine | VLDB | 2021 | [PDF](./PDF/2024.04.19.pdf)/[PPT](./PPT/2024.04.19.pptx) | 杨洪宇 |
 | 2024.05.16 | What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines | VLDB | 2023 | [PDF](./PDF/2024.05.16.pdf)/[PPT](./PPT/2024.05.16.pptx) | 张惠东 |
 | 2024.06.13 | Detecting Metadata-Related Logic Bugs in Database Systems via Raw Database Construction | VLDB | 2024 | [PDF](./PDF/2024.06.13.pdf)/[PPT](./PPT/2024.06.13.pptx) | 胡梓锐 |
+| 2024.07.26 | PM-Blade: A Persistent Memory Augmented LSM-tree Storage for Database | ICDE | 2023 | [PDF](./PDF/2024.07.26.pdf)/[PPT](./PPT/2024.07.26.pptx) | 杨洪宇 |
 
 ------
 
