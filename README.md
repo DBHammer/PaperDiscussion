@@ -14,6 +14,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2024.09.18 | Saving Money for Analytical Workloads in the Cloud |         VLDB         | 2024 |   PDF/PPT/[video](https://dcnq75v2k0h8.feishu.cn/minutes/obcnsuk9ci1r9c237t8la7z2)    | 简炜 |
 | 2024.09.11 | Learned Cardinality Estimation: A Design Space Exploration and A Comparative Evaluation |         VLDB         | 2022 |   [PDF](./PDF/2024.09.11.pdf)/[PPT](./PPT/2024.09.11.pdf)    | 黄煦华 |
 | 2024.08.15 | Keep it simple: testing databases via differential query plans |        SIGMOD        | 2024 |   [PDF](./PDF/2024.08.15.pdf)/[PPT](./PPT/2024.08.15.pptx)   | 翁思扬 |
 | 2024.08.02 | Columnstore and B+ tree – Are Hybrid Physical Designs Important? |        SIGMOD        | 2018 |   [PDF](./PDF/2024.08.02.pdf)/[PPT](./PPT/2024.08.02.pptx)   | 董昊朴 |
