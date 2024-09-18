@@ -37,7 +37,7 @@
 | 2024.07.26 | PM-Blade: A Persistent Memory Augmented LSM-tree Storage for Database | ICDE | 2023 | [PDF](./PDF/2024.07.26.pdf)/[PPT](./PPT/2024.07.26.pptx) | 杨洪宇 |
 | 2024.08.02 | Columnstore and B+ tree – Are Hybrid Physical Designs Important? | SIGMOD | 2018 | [PDF](./PDF/2024.08.02.pdf)/[PPT](./PPT/2024.08.02.pptx) | 董昊朴 |
 | 2024.08.15 | Keep it simple: testing databases via differential query plans | SIGMOD | 2024 | [PDF](./PDF/2024.08.15.pdf)/[PPT](./PPT/2024.08.15.pptx) | 翁思扬 |
-| 2024.09.11 | Learned Cardinality Estimation: A Design Space Exploration and A Comparative Evaluation |  | 2022 | [PDF](./PDF/2024.09.11.pdf)/[PPT](./PPT/2024.09.11.pdf) | 黄煦华 |
+| 2024.09.11 | Learned Cardinality Estimation: A Design Space Exploration and A Comparative Evaluation | VLDB | 2022 | [PDF](./PDF/2024.09.11.pdf)/[PPT](./PPT/2024.09.11.pdf) | 黄煦华 |
 
 ------
 
