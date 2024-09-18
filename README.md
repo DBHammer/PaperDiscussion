@@ -2,7 +2,9 @@
 
 [![DBHammer](https://img.shields.io/static/v1?label=&message=DBHammer+Paper+Discussion&color=black&logo=awesomelists)](https://github.com/DBHammer/PaperDiscussion)
 ![](https://img.shields.io/github/last-commit/DBHammer/PaperDiscussion?color=green)
+![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=DBHammer.PaperDiscussion)
 [![GitHub Repo stars](https://img.shields.io/github/stars/DBHammer/PaperDiscussion)](https://github.com/DBHammer/PaperDiscussion)
+[![GitHub Repo forks](https://img.shields.io/github/forks/DBHammer/PaperDiscussion)](https://github.com/DBHammer/PaperDiscussion)
 
 > 本仓库维护来自华东师范大学(ECNU)数据科学与工程学院(DaSE)DBHammer实验室的讨论班记录，请实验室内部同学严格按照[上传说明](upload.md)上传讨论班的相关PDF和PPT。
 
