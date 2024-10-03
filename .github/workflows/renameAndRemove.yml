@@ -1,0 +1,80 @@
+name: Rename and Move Files
+
+on:
+  push:
+
+jobs:
+  rename-and-move:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Check if commit message matches format
+        run: |
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+          # 提取 commit message 中的字段
+          if [[ "$COMMIT_MESSAGE" =~ ^([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)$ ]]; then
+            echo "TIME=${BASH_REMATCH[1]}" >> $GITHUB_ENV
+            echo "TITLE=${BASH_REMATCH[2]}" >> $GITHUB_ENV
+            echo "CONF=${BASH_REMATCH[3]}" >> $GITHUB_ENV
+            echo "YEAR=${BASH_REMATCH[4]}" >> $GITHUB_ENV
+            echo "NAME=${BASH_REMATCH[5]}" >> $GITHUB_ENV
+          else
+            echo "Commit message does not match the format 'TIME,TITLE,CONF,YEAR,NAME', exiting." && exit 0
+          fi
+
+      - name: Rename and move PDF and PPT/PPTX files
+        run: |
+          PDF_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pdf') || true
+          PPT_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pptx\|.ppt') || true
+
+          # 检查是否找到了文件
+          if [ -z "$PDF_FILE" ] || [ -z "$PPT_FILE" ]; then
+            echo "No PDF or PPT files found. Exiting."
+            echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
+            exit 0  # 直接退出
+          fi
+          echo "SHOULD_CONTINUE=true" >> $GITHUB_ENV
+          if [ -n "$PDF_FILE" ]; then
+            mv "$PDF_FILE" "PDF/${TIME}.pdf"
+          fi
+          if [ -n "$PPT_FILE" ]; then
+            EXTENSION="${PPT_FILE##*.}"
+            mv "$PPT_FILE" "PPT/${TIME}.${EXTENSION}"
+          fi
+
+      - name: Insert formatted comment into README.md
+        if: env.SHOULD_CONTINUE == 'true'
+        run: |
+          # 确定文件的扩展名
+          if [ -f "PPT/${TIME}.pptx" ]; then
+            PPT_EXTENSION="pptx"
+          elif [ -f "PPT/${TIME}.ppt" ]; then
+            PPT_EXTENSION="ppt"
+          else
+            echo "No PPT or PPTX files found."
+            exit 1  # 直接退出，确保后续步骤不执行
+          fi
+
+          # 创建插入的格式
+          FORMATTED_MESSAGE="| $TIME | $TITLE | $CONF | $YEAR | [PDF](./PDF/${TIME}.pdf)/[PPT](./PPT/${TIME}.${PPT_EXTENSION}) | $NAME |"
+          echo "$FORMATTED_MESSAGE"
+          # 在 README.md 中插入内容
+          {
+            head -n 16 README.md  # 输出前 16 行
+            echo "$FORMATTED_MESSAGE"  # 输出新的格式化行
+            tail -n +17 README.md  # 输出第 17 行及其后面的内容
+          } > temp.md && mv temp.md README.md
+
+      - name: Commit and push changes
+        if: env.SHOULD_CONTINUE == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add PDF/${TIME}.pdf PPT/${TIME}.* README.md
+          git commit -m "Renamed files and updated README with commit message: $COMMIT_MESSAGE"
+          git push
