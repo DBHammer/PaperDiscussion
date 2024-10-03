@@ -35,3 +35,10 @@
 | 2021.07.27 | Polyjuice: High-Performance Transactions via Learned Concurrency Control | OSDI | 2021 | [PDF](PDF/2021.07.27.pdf) / [PPT](PPT/2021.07.27.pptx) | 王清帅 |
 ```
 
+## 快捷上传
+
+通过Github Action，本仓库新增对快捷上传的支持，从而减少上传和维护的复杂度。使用快捷上传时，只需要上传PDF和PPT文件，并将commit message写为`时间,题目,会议,年份,姓名`即可，注意中间使用半角(英文)逗号分割。
+
+> [!NOTE]
+>
+> 目前该方法不支持一天上传两次记录，否则前一次上传的文件会被覆盖。
