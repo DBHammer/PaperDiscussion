@@ -73,8 +73,9 @@ jobs:
       - name: Commit and push changes
         if: env.SHOULD_CONTINUE == 'true'
         run: |
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add PDF/${TIME}.pdf PPT/${TIME}.* README.md
+          git add .
           git commit -m "Renamed files and updated README with commit message: $COMMIT_MESSAGE"
           git push
