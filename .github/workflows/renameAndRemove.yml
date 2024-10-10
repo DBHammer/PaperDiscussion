@@ -19,17 +19,20 @@ jobs:
 
     - name: Check if commit message matches format
       run: |
-        COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-        # 提取 commit message 中的字段
-        if [[ "$COMMIT_MESSAGE" =~ ^([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)$ ]]; then
-          echo "TIME=${BASH_REMATCH[1]}" >> $GITHUB_ENV
-          echo "TITLE=${BASH_REMATCH[2]}" >> $GITHUB_ENV
-          echo "CONF=${BASH_REMATCH[3]}" >> $GITHUB_ENV
-          echo "YEAR=${BASH_REMATCH[4]}" >> $GITHUB_ENV
-          echo "NAME=${BASH_REMATCH[5]}" >> $GITHUB_ENV
+        # 以|作为分隔符
+        if output=$(git log -1 --pretty=%B | awk -F'|' 'NF >= 5 {print $1"|"$2"|"$3"|"$4"|"$5}'); then
+          IFS='|'  read -r TIME TITLE CONF YEAR NAME <<< "$output"
         else
-          echo "Commit message does not match the format, exiting." && exit 0
+          echo "Error: Not enough fields in git log output." >&2
+          exit 0
         fi
+
+        # 打印提取的信息
+        echo "TIME=$TIME" >> $GITHUB_ENV
+        echo "TITLE=$TITLE" >> $GITHUB_ENV
+        echo "CONF=$CONF" >> $GITHUB_ENV
+        echo "YEAR=$YEAR" >> $GITHUB_ENV
+        echo "NAME=$NAME" >> $GITHUB_ENV
 
     - name: Dispatch processor (2pdf or 1ppt + 1pdf)
       run: |
