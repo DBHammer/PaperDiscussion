@@ -14,6 +14,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2024.10.09 | Lemo: A Cache-Enhanced Learned Optimizer for Concurrent Queries | SIGMOD | 2023 | [PDF](./PDF/2024.10.09.pdf)/[PPT](./PPT/2024.10.09.pptx) | 陆辰昊 |
 | 2024.09.29 | Towards optimal transaction scheduling | VLDB | 2024 | [PDF](./PDF/2024.09.29.pdf)/[PPT](./PPT/2024.09.29.pptx) | 翁思扬 |
 | 2024.09.26 | Modeling Shifting Workloads for Learned Database Systems | SIGMOD | 2024 | [PDF](./PDF/2024.09.26.pdf)/[PPT](./PPT/2024.09.26.pptx) | 罗瑶 |
 | 2024.09.18 | Saving Money for Analytical Workloads in the Cloud |         VLDB         | 2024 |   [PDF](./PDF/2024.09.18.pdf)/[PPT](./PPT/2024.09.18.pptx)/[video](https://dcnq75v2k0h8.feishu.cn/minutes/obcnsuk9ci1r9c237t8la7z2)   | 简炜 |
