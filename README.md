@@ -14,6 +14,8 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2024.11.13 | Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation | OSDI | 2024 | [PDF](./PDF/2024.11.13.pdf)/[PPT](./PPT/2024.11.13.pptx) | 杨洪宇 |
+| 2024.10.26 | ADOC: Automatically Harmonizing Dataflow Between Components in Log-Structured Key-Value Stores for Improved Performance | FAST | 2023 | [PDF](./PDF/2024.10.26.pdf)/[PPT](./PPT/2024.10.26.pptx) | 杨洪宇 |
 | 2024.10.09 | Lemo: A Cache-Enhanced Learned Optimizer for Concurrent Queries | SIGMOD | 2023 | [PDF](./PDF/2024.10.09.pdf)/[PPT](./PPT/2024.10.09.pptx) | 陆辰昊 |
 | 2024.09.29 | Towards optimal transaction scheduling | VLDB | 2024 | [PDF](./PDF/2024.09.29.pdf)/[PPT](./PPT/2024.09.29.pptx) | 翁思扬 |
 | 2024.09.26 | Modeling Shifting Workloads for Learned Database Systems | SIGMOD | 2024 | [PDF](./PDF/2024.09.26.pdf)/[PPT](./PPT/2024.09.26.pptx) | 罗瑶 |
