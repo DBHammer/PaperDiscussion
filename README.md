@@ -14,6 +14,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2025.04.02  |  Cardinality Estimation for Having-Clauses  |  VLDB  |  2024  | [PDF](./PDF/2025.04.02 .pdf)/[PPT](./PPT/2025.04.02 .pptx) |  罗瑶 |
 | 2024.12.11  |  LazyLog: A New Shared Log Abstraction for Low-Latency Applications  |  SOSP  |  2024  | [PDF](./PDF/2024.12.11.pdf)/[PPT](./PPT/2024.12.11.pptx) |  翁思扬 |
 | 2024.11.13 | Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation | OSDI | 2024 | [PDF](./PDF/2024.11.13.pdf)/[PPT](./PPT/2024.11.13.pptx) | 杨洪宇 |
 | 2024.10.26 | ADOC: Automatically Harmonizing Dataflow Between Components in Log-Structured Key-Value Stores for Improved Performance | FAST | 2023 | [PDF](./PDF/2024.10.26.pdf)/[PPT](./PPT/2024.10.26.pptx) | 杨洪宇 |
