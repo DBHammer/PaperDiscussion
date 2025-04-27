@@ -14,6 +14,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2025.04.10 | Constant Optimization Driven Database System Testing | SIGMOD | 2025 | [PDF](./PDF/2025.04.10 .pdf)/[PPT](./PPT/2025.04.10 .pptx) | 胡梓锐 |
 | 2025.04.02  |  Cardinality Estimation for Having-Clauses  |  VLDB  |  2024  | [PDF](./PDF/2025.04.02 .pdf)/[PPT](./PPT/2025.04.02 .pptx) |  罗瑶 |
 | 2024.12.11  |  LazyLog: A New Shared Log Abstraction for Low-Latency Applications  |  SOSP  |  2024  | [PDF](./PDF/2024.12.11.pdf)/[PPT](./PPT/2024.12.11.pptx) |  翁思扬 |
 | 2024.11.13 | Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation | OSDI | 2024 | [PDF](./PDF/2024.11.13.pdf)/[PPT](./PPT/2024.11.13.pptx) | 杨洪宇 |
