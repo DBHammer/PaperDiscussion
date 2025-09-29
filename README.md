@@ -14,6 +14,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+|  |  |  |  | [PDF](./PDF/.pdf)/[PPT](./PPT/.pptx) |  |
 | 2025.09.22 | TxnSails: achieving serializable transaction scheduling with self-adaptive isolation level selection | VLDB | 2025 | [PDF](./PDF/2025.09.22.pdf)/[PPT](./PPT/2025.09.22.pptx) | 翁思扬 |
 | 2025.09.10 | Fucci: Database Transaction Fuzzing via Random Conflict Construction and Multilevel Constraint Solving | VLDB | 2025 | [PDF](./PDF/2025.09.10.pdf)/[PPT](./PPT/2025.09.10.pptx) | 杨洪宇 |
 | 2025.05.08  |  Many faces of ad hoc transactions  |  Comm. of the ACM  |  2024  | [PDF](./PDF/2025.05.08.pdf)/[PPT](./PPT/2025.05.08.pptx) |  翁思扬 |
