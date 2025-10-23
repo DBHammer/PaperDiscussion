@@ -14,7 +14,6 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
-|  |  |  |  | [PDF](./PDF/.pdf)/[PPT](./PPT/.pptx) |  |
 | 2025.10.20 | Steiner-Hardness: A Query Hardness Measure for Graph-Based ANN Indexes | VLDB | 2025 | [PDF](./PDF/2025.10.20.pdf)/[PPT](./PPT/2025.10.20.pptx) | 何海林 |
 | 2025.09.29 | The Accuracy of Cardinality Estimators: Unraveling the Evaluation Result Conundrum | VLDB | 2025 | [PDF](./PDF/2025.09.29.pdf)/[PPT](./PPT/2025.09.29.pptx) | 黄煦华 |
 | 2025.09.22 | TxnSails: achieving serializable transaction scheduling with self-adaptive isolation level selection | VLDB | 2025 | [PDF](./PDF/2025.09.22.pdf)/[PPT](./PPT/2025.09.22.pptx) | 翁思扬 |
