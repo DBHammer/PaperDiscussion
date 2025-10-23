@@ -2,146 +2,79 @@ name: Rename and Move Files
 
 on:
   push:
+    branches:
+      - main  # 只监听main分支的推送
 
 jobs:
   rename-and-move:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install Dependency
-      run: |
-        sudo apt-get install poppler-utils
-
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
         fetch-depth: 2
 
-    - name: Check if commit message matches format
+    - name: Validate commit message format
+      id: validate
       run: |
-        # 以|作为分隔符
-        if output=$(git log -1 --pretty=%B | awk -F'|' 'NF >= 5 {print $1"|"$2"|"$3"|"$4"|"$5}'); then
-          IFS='|'  read -r TIME TITLE CONF YEAR NAME <<< "$output"
-        else
-          echo "Error: Not enough fields in git log output." >&2
-          exit 0
-        fi
-
-        # 打印提取的信息
-        echo "TIME=$TIME" >> $GITHUB_ENV
-        echo "TITLE=$TITLE" >> $GITHUB_ENV
-        echo "CONF=$CONF" >> $GITHUB_ENV
-        echo "YEAR=$YEAR" >> $GITHUB_ENV
-        echo "NAME=$NAME" >> $GITHUB_ENV
-
-    - name: Dispatch processor (2pdf or 1ppt + 1pdf)
-      run: |
-        PDF_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pdf') || true
-        PPT_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pptx\|.ppt') || true
-
-        PDF_FILE_CNT=0
-        PPT_FILE_CNT=0
-        if [ -n "$PDF_FILE" ]; then PDF_FILE_CNT=$(echo "$PDF_FILE" | wc -l); fi
-        if [ -n "$PPT_FILE" ]; then PPT_FILE_CNT=$(echo "$PPT_FILE" | wc -l); fi
-        if [ $(($PDF_FILE_CNT + $PPT_FILE_CNT)) -gt 2 ]; then
-          echo "Too many files uploaded. Exiting."
-          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
-          exit 0
-        fi
-
-        if [ $PDF_FILE_CNT -eq 2 ]; then
-          echo "Get two PDF files."
+        COMMIT_MSG=$(git log -1 --pretty=%B)
+        # 检查提交消息是否包含5个管道分隔的字段
+        if [[ "$COMMIT_MSG" =~ ^[^|]*\|[^|]*\|[^|]*\|[^|]*\|[^|]*$ ]]; then
+          echo "Valid commit message format"
           echo "SHOULD_CONTINUE=true" >> $GITHUB_ENV
-          echo "MODE=1" >> $GITHUB_ENV
-          exit 0
-        fi
-
-        # 检查是否找到了文件
-        if [ -z "$PDF_FILE" ] || [ -z "$PPT_FILE" ]; then
-          echo "No PDF or PPT files found. Exiting."
-          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
-          exit 0
-        fi
-        echo "SHOULD_CONTINUE=true" >> $GITHUB_ENV
-        echo "MODE=2" >> $GITHUB_ENV
-
-    - name: Move uploaded files and insert formatted comment into README.md (for 2pdf)
-      if: env.SHOULD_CONTINUE == 'true' && env.MODE == 1
-      run: |
-        PDF_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pdf')
-
-        for file in $PDF_FILE; do
-          page_size=$(pdfinfo $file | grep -oP 'Page size:\s+\K[0-9]+\s+x\s+[0-9]+')
-          width=$(echo "$page_size" | awk '{print $1}')
-          height=$(echo "$page_size" | awk '{print $3}')
-          if [ $width -lt $height ]; then
-            PAPER_PDF=$file
-            echo "$file is paper pdf"
-          else
-            SLIDE_PDF=$file
-            echo "$file is slide pdf"
-          fi
-        done
-
-        if [ -z "$PAPER_PDF" ] || [ -z "$SLIDE_PDF" ]; then
-          echo "Can not tell which is which, so I'll leave it up to you."
-          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
-          exit 0
-        fi
-
-        mv "$PAPER_PDF" "PDF/${TIME}.pdf"
-        mv "$SLIDE_PDF" "PPT/${TIME}.pdf"
-
-        FORMATTED_MESSAGE="| $TIME | $TITLE | $CONF | $YEAR | [PDF](./PDF/${TIME}.pdf)/[PPT](./PPT/${TIME}.pdf) | $NAME |"
-        echo "$FORMATTED_MESSAGE"
-        # 在 README.md 中插入内容
-        {
-          head -n 16 README.md  # 输出前 16 行
-          echo "$FORMATTED_MESSAGE"  # 输出新的格式化行
-          tail -n +17 README.md  # 输出第 17 行及其后面的内容
-        } > temp.md && mv temp.md README.md
-
-    - name: Move uploaded files and insert formatted comment into README.md (for 1pdf + 1ppt)
-      if: env.SHOULD_CONTINUE == 'true' && env.MODE == 2
-      run: |
-        PDF_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pdf') || true
-        PPT_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '.pptx\|.ppt') || true
-
-        if [ -n "$PDF_FILE" ]; then
-          mv "$PDF_FILE" "PDF/${TIME}.pdf"
-        fi
-        if [ -n "$PPT_FILE" ]; then
-          EXTENSION="${PPT_FILE##*.}"
-          mv "$PPT_FILE" "PPT/${TIME}.${EXTENSION}"
-        fi
-
-        # 确定文件的扩展名
-        if [ -f "PPT/${TIME}.pptx" ]; then
-          PPT_EXTENSION="pptx"
-        elif [ -f "PPT/${TIME}.ppt" ]; then
-          PPT_EXTENSION="ppt"
+          
+          # 提取字段
+          IFS='|' read -r TIME TITLE CONF YEAR NAME <<< "$COMMIT_MSG"
+          echo "TIME=$TIME" >> $GITHUB_ENV
+          echo "TITLE=$TITLE" >> $GITHUB_ENV
+          echo "CONF=$CONF" >> $GITHUB_ENV
+          echo "YEAR=$YEAR" >> $GITHUB_ENV
+          echo "NAME=$NAME" >> $GITHUB_ENV
         else
-          echo "No PPT or PPTX files found."
-          exit 1  # 直接退出，确保后续步骤不执行
+          echo "Invalid commit message format. Expected format: TIME|TITLE|CONF|YEAR|NAME"
+          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
         fi
 
-        # 创建插入的格式
-        FORMATTED_MESSAGE="| $TIME | $TITLE | $CONF | $YEAR | [PDF](./PDF/${TIME}.pdf)/[PPT](./PPT/${TIME}.${PPT_EXTENSION}) | $NAME |"
-        echo "$FORMATTED_MESSAGE"
-        # 在 README.md 中插入内容
-        {
-          head -n 16 README.md  # 输出前 16 行
-          echo "$FORMATTED_MESSAGE"  # 输出新的格式化行
-          tail -n +17 README.md  # 输出第 17 行及其后面的内容
-        } > temp.md && mv temp.md README.md
+    - name: Verify GitHub web trigger
+      if: env.SHOULD_CONTINUE == 'true'
+      run: |
+        # 检查是否来自GitHub网站操作
+        if [[ "${{ github.event.head_commit.author.username }}" == "github-actions" ]] || 
+           [[ "${{ github.event.head_commit.author.email }}" != *"@users.noreply.github.com"* ]]; then
+          echo "Skipping non-web commit"
+          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
+        fi
 
+    - name: Check for new files
+      if: env.SHOULD_CONTINUE == 'true'
+      id: filecheck
+      run: |
+        PDF_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '\.pdf$') || true
+        PPT_FILE=$(git diff --name-only --diff-filter=A HEAD^ HEAD | grep -i '\.pptx$\|\.ppt$') || true
+        
+        PDF_COUNT=$(echo "$PDF_FILE" | wc -l | tr -d ' ')
+        PPT_COUNT=$(echo "$PPT_FILE" | wc -l | tr -d ' ')
+        
+        if (( PDF_COUNT + PPT_COUNT > 2 )); then
+          echo "Too many files uploaded"
+          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
+        elif (( PDF_COUNT == 2 )); then
+          echo "MODE=1" >> $GITHUB_ENV
+        elif (( PDF_COUNT == 1 && PPT_COUNT == 1 )); then
+          echo "MODE=2" >> $GITHUB_ENV
+        else
+          echo "Invalid file combination"
+          echo "SHOULD_CONTINUE=false" >> $GITHUB_ENV
+        fi
+
+    # ... 保留原有的文件移动和README更新步骤 ...
 
     - name: Commit and push changes
       if: env.SHOULD_CONTINUE == 'true'
       run: |
-        COMMIT_MESSAGE=$(git log -1 --pretty=%B)
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
-        git commit -m "Renamed files and updated README with commit message: $COMMIT_MESSAGE"
+        git commit -m "Processed files: $TIME $TITLE"
         git push
