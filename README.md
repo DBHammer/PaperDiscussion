@@ -2,7 +2,7 @@
 
 [![DBHammer](https://img.shields.io/static/v1?label=&message=DBHammer+Paper+Discussion&color=black&logo=awesomelists)](https://github.com/DBHammer/PaperDiscussion)
 ![](https://img.shields.io/github/last-commit/DBHammer/PaperDiscussion?color=green)
-![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=DBHammer.PaperDiscussion)
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=DBHammer.PaperDiscussion)
 [![GitHub Repo stars](https://img.shields.io/github/stars/DBHammer/PaperDiscussion)](https://github.com/DBHammer/PaperDiscussion)
 [![GitHub Repo forks](https://img.shields.io/github/forks/DBHammer/PaperDiscussion)](https://github.com/DBHammer/PaperDiscussion)
 
