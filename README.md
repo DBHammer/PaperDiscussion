@@ -16,11 +16,13 @@
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
 | 2025.11.17 | A Native Vector Index Design for Graph DBMSs With Robust Predicate-Agnostic Search Performance | VLDB | 2025 | [PDF](./PDF/2025.11.17.pdf)/[PPT](./PPT/2025.11.17.pptx) | 陈广泽 |
+| 2025.11.10 | Workload Insights from the Snowflake Data Cloud: What Do Production Analytic Queries Really Look Like? | VLDB | 2025 | [PDF](./PDF/2025.11.10.pdf)/[PPT](./PPT/2025.11.10.pptx) | 向鑫宇 |
 | 2025.10.27 | MemSim: A Bayesian Simulator for Evaluating Memory of LLM-based Personal Assistants | arxiv | 2024 | [PDF](./PDF/2025.10.27.pdf)/[PPT](./PPT/2025.10.27.pptx) | 杜祥云 |
 | 2025.10.20 | Steiner-Hardness: A Query Hardness Measure for Graph-Based ANN Indexes | VLDB | 2025 | [PDF](./PDF/2025.10.20.pdf)/[PPT](./PPT/2025.10.20.pptx) | 何海林 |
 | 2025.09.29 | The Accuracy of Cardinality Estimators: Unraveling the Evaluation Result Conundrum | VLDB | 2025 | [PDF](./PDF/2025.09.29.pdf)/[PPT](./PPT/2025.09.29.pptx) | 黄煦华 |
 | 2025.09.22 | TxnSails: achieving serializable transaction scheduling with self-adaptive isolation level selection | VLDB | 2025 | [PDF](./PDF/2025.09.22.pdf)/[PPT](./PPT/2025.09.22.pptx) | 翁思扬 |
 | 2025.09.10 | Fucci: Database Transaction Fuzzing via Random Conflict Construction and Multilevel Constraint Solving | VLDB | 2025 | [PDF](./PDF/2025.09.10.pdf)/[PPT](./PPT/2025.09.10.pptx) | 杨洪宇 |
+| 2025.07.16 | Pre-training summarization models of structured datasets for cardinality estimation | VLDB | 2021 | [PDF](./PDF/2025.07.16.pdf)/[PPT](./PPT/2025.07.16.pptx) | 向鑫宇 |
 | 2025.05.08  |  Many faces of ad hoc transactions  |  Comm. of the ACM  |  2024  | [PDF](./PDF/2025.05.08.pdf)/[PPT](./PPT/2025.05.08.pptx) |  翁思扬 |
 | 2025.04.10 | Constant Optimization Driven Database System Testing | SIGMOD | 2025 | [PDF](./PDF/2025.04.10.pdf)/[PPT](./PPT/2025.04.10.pptx) | 胡梓锐 |
 | 2025.04.02  |  Cardinality Estimation for Having-Clauses  |  VLDB  |  2024  | [PDF](./PDF/2025.04.02.pdf)/[PPT](./PPT/2025.04.02.pptx) |  罗瑶 |
