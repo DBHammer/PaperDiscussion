@@ -17,6 +17,7 @@
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
 | 2025.12.8 |GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications| VLDB | 2025 | [PDF](./PDF/2025.12.08.pdf)/[PPT](./PPT/2025.12.08.pptx) | 虞锴宸 |
 | 2025.11.17 | A Native Vector Index Design for Graph DBMSs With Robust Predicate-Agnostic Search Performance | VLDB | 2025 | [PDF](./PDF/2025.11.17.pdf)/[PPT](./PPT/2025.11.17.pptx) | 陈广泽 |
+| 2025.11.10 | Workload Insights from the Snowflake Data Cloud: What Do Production Analytic Queries Really Look Like? | VLDB | 2025 | [PDF](./PDF/2025.11.10.pdf)/[PPT](./PPT/2025.11.10.pptx) | 向鑫宇 |
 | 2025.10.27 | MemSim: A Bayesian Simulator for Evaluating Memory of LLM-based Personal Assistants | arxiv | 2024 | [PDF](./PDF/2025.10.27.pdf)/[PPT](./PPT/2025.10.27.pptx) | 杜祥云 |
 | 2025.10.20 | Steiner-Hardness: A Query Hardness Measure for Graph-Based ANN Indexes | VLDB | 2025 | [PDF](./PDF/2025.10.20.pdf)/[PPT](./PPT/2025.10.20.pptx) | 何海林 |
 | 2025.09.29 | The Accuracy of Cardinality Estimators: Unraveling the Evaluation Result Conundrum | VLDB | 2025 | [PDF](./PDF/2025.09.29.pdf)/[PPT](./PPT/2025.09.29.pptx) | 黄煦华 |
