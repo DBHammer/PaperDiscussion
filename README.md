@@ -15,6 +15,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2025.12.22 |TXSQL: Lock Optimizations Towards High Contented Workloads| SIGMOD | 2025 | [PDF](./PDF/2025.12.22.pdf)/[PPT](./PPT/2025.12.22.pptx) | 胡梓锐 |
 | 2025.12.8 |GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications| VLDB | 2025 | [PDF](./PDF/2025.12.08.pdf)/[PPT](./PPT/2025.12.08.pptx) | 虞锴宸 |
 | 2025.11.17 | A Native Vector Index Design for Graph DBMSs With Robust Predicate-Agnostic Search Performance | VLDB | 2025 | [PDF](./PDF/2025.11.17.pdf)/[PPT](./PPT/2025.11.17.pptx) | 陈广泽 |
 | 2025.11.10 | Workload Insights from the Snowflake Data Cloud: What Do Production Analytic Queries Really Look Like? | VLDB | 2025 | [PDF](./PDF/2025.11.10.pdf)/[PPT](./PPT/2025.11.10.pptx) | 向鑫宇 |
