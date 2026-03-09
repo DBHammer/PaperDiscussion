@@ -15,6 +15,7 @@
 
 |    时间    |                             题目                             |         会议         | 年份 |                             链接                             | 宣讲人 |
 | :--------: | :----------------------------------------------------------: | :------------------: | :--: | :----------------------------------------------------------: | ------ |
+| 2026.03.09 | Exqutor: Extended Query Optimizer for Vector-augmented Analytical Queries | arXiv | 2025 | [PDF](./PDF/2026.03.09.pdf)/[PPT](./PPT/2026.03.09.pptx) | 何海林 |
 | 2026.02.02 |Concurrency Control as a Service | VLDB | 2025 | [PDF](./PDF/2026.02.02.pdf)/[PPT](./PPT/2026.02.02.pptx) |杨洪宇|
 | 2026.01.19 |Skybridge Bounded Staleness for Distributed Caches | OSDI | 2025 | [PDF](./PDF/2026.01.19.pdf)/[PPT](./PPT/2026.01.19.pptx) |翁思扬|
 | 2025.12.22 |TXSQL: Lock Optimizations Towards High Contented Workloads| SIGMOD | 2025 | [PDF](./PDF/2025.12.22.pdf)/[PPT](./PPT/2025.12.22.pptx) | 胡梓锐 |
