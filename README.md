@@ -15,6 +15,7 @@
 
 |     时间     |                             题目                             |          会议          | 年份 |                                                                                                                                   链接                                                                                                                                    | 宣讲人 |
 |:----------:| :----------------------------------------------------------: |:--------------------:| :--: |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|-----|
+| 2026.08.05 | Why Database Manuals Are Not Enough: Efficient and Reliable Configuration Tuning for DBMSs via Code-Driven LLM Agents | PVLDB | 2026 | [PDF](./PDF/2026.08.05.pdf)/[PPT](./PPT/2026.08.05.pptx) | 王思腾 |
 | 2026.07.29 | An Experimental Evaluation of Hybrid Querying on Vectors | VLDB | 2025 | [PDF](./PDF/2026.07.29.pdf)/[PPT](./PPT/2026.07.29.pptx) | 向鑫宇 |
 | 2026.07.06 | An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System: Experiments & Analysis | SIGMOD | 2026 | [PDF](./PDF/2026.07.06.pdf)/[PPT](./PPT/2026.07.06.pptx) | 何海林 |
 | 2026.06.08 | WoW:A Window-to-Window Incremental Index for Range-Filtering Approximate Nearest Neighbor Search | SIGMOD | 2025 | [PDF](./PDF/2026.06.08.pdf)/[PPT](./PPT/2026.06.08.pptx) | 向鑫宇 |
