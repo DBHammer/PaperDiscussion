@@ -17,6 +17,8 @@
 |:----------:| :----------------------------------------------------------: |:--------------------:| :--: |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|-----|
 | 2026.11.13 | DiskJoin: Large-scale Vector Similarity Join with SSD | SIGMOD | 2025 | [PDF](./PDF/2026.11.13.pdf)/[PPT](./PPT/2026.11.13.pptx) | 向鑫宇 |
 | 2026.11.03 | Parajoin: A Parallelism-aware approximate filtered similarity join method in vector databases | VLDB Journal | 2026 | [PDF](./PDF/2026.11.03.pdf)/[PPT](./PPT/2026.11.03.pptx) | 虞锴宸 |
+| 2026.10.31 | Semantic Data Processing with Large Language Models: A Survey | Preprint | 2026 | [PDF](./PDF/2026.10.31.pdf)/[PPT](./PPT/2026.10.31.pdf) | 黄煦华 |
+| 2026.10.20 | SemBench: A Benchmark for Semantic Query Processing Engines | VLDB | 2026 | [PDF](./PDF/2026.10.20.pdf)/[PPT](./PPT/2026.10.20.pdf) | 黄煦华 |
 | 2026.10.13 | Abacus: A Cost-Based Optimizer for Semantic Operator Systems | PVLDB | 2026 | [PDF](./PDF/2026.10.13.pdf)/[PPT](./PPT/2026.10.13.pptx) | 陈广泽 |
 | 2026.08.05 | Why Database Manuals Are Not Enough: Efficient and Reliable Configuration Tuning for DBMSs via Code-Driven LLM Agents | PVLDB | 2026 | [PDF](./PDF/2026.08.05.pdf)/[PPT](./PPT/2026.08.05.pptx) | 王思腾 |
 | 2026.07.29 | An Experimental Evaluation of Hybrid Querying on Vectors | VLDB | 2025 | [PDF](./PDF/2026.07.29.pdf)/[PPT](./PPT/2026.07.29.pptx) | 向鑫宇 |
